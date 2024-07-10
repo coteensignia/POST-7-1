@@ -1,0 +1,25 @@
+.subscription{
+background-color: $green;
+border-radius: 10px;
+color:white;
+@include padding-4-sides(10px, 0);
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+
+  & p{
+    width: 250px;
+  }
+  & .suscribete{ 
+    width: 180px;
+    height: 30px;
+    border-radius: 5px; 
+    align-self: flex-end;
+    margin-bottom: 10px;
+    &:hover {
+      background-color: darken($grey, 5%); 
+    }  
+
+}
+}
