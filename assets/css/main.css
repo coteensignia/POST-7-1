@@ -308,15 +308,15 @@ input[type=date] {
 .subscription p {
   width: 250px;
 }
-.subscription .suscribete {
+.subscription .subscription__button {
   width: 180px;
   height: 30px;
   border-radius: 5px;
   align-self: flex-end;
   margin-bottom: 10px;
 }
-.subscription .suscribete:hover {
-  background-color: #1e2025;
+.subscription .subscription__button:hover {
+  background-color: darken;
 }
 
 html, body {

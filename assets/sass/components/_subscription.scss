@@ -11,14 +11,14 @@ justify-content: space-evenly;
   & p{
     width: 250px;
   }
-  & .suscribete{ 
+  & .subscription__button{ 
     width: 180px;
     height: 30px;
     border-radius: 5px; 
     align-self: flex-end;
     margin-bottom: 10px;
     &:hover {
-      background-color: darken($grey, 5%); 
+      background-color: darken; 
     }  
 
 }
