@@ -1,0 +1,15 @@
+.main-menu{
+  display:flex;
+  flex-wrap: wrap;
+  
+  & ul{
+list-style:none;
+  }
+
+  & li{
+    display:flex;
+    & a{
+    text-decoration: none;
+    }
+      }
+}

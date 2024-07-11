@@ -16,6 +16,8 @@ html, body {
 
 .header {
   padding: 2rem 5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .h-container {
@@ -108,6 +110,20 @@ html, body {
   justify-content: center;
 }
 
+.main-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-menu ul {
+  list-style: none;
+}
+.main-menu li {
+  display: flex;
+}
+.main-menu li a {
+  text-decoration: none;
+}
+
 .footer {
   padding: 2rem 5rem;
 }
@@ -117,6 +133,7 @@ html, body {
   flex-direction: row;
   align-items: center;
   height: 5rem;
+  text-decoration: none;
 }
 .logo__img {
   height: 100%;

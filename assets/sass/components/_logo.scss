@@ -4,6 +4,8 @@
   flex-direction: row;
   align-items: center;
   height: 5rem;
+  text-decoration: none;
+  
 
   &__img {
     height: 100%;
@@ -15,6 +17,7 @@
 
   &__title {
     font-weight: 700;
+    
   }
 }
 
