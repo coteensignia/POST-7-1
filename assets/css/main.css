@@ -255,6 +255,18 @@ html, body {
 .btn__img {
   height: 100%;
 }
+.btn--sub {
+  font-size: larger;
+  padding: 10px 10px;
+  border: none;
+  width: 180px;
+  border-radius: 5px;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+.btn--sub:hover {
+  background-color: darken;
+}
 
 input[type=text],
 input[type=url],
@@ -297,26 +309,22 @@ input[type=date] {
 }
 
 .subscription {
-  background-color: #67C770;
+  background-color: #62AF2A;
   border-radius: 10px;
   color: white;
-  padding: 10px 0;
+  padding: 20px 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
-.subscription p {
-  width: 250px;
+.subscription__text {
+  font-size: x-large;
+  width: 370px;
 }
-.subscription .subscription__button {
-  width: 180px;
-  height: 30px;
-  border-radius: 5px;
-  align-self: flex-end;
-  margin-bottom: 10px;
-}
-.subscription .subscription__button:hover {
-  background-color: darken;
+.subscription__input[type=email] {
+  font-size: larger;
+  padding: 20px 10px;
+  border: none;
 }
 
 html, body {

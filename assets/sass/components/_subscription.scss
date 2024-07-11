@@ -1,25 +1,20 @@
-.subscription{
-background-color: $green;
-border-radius: 10px;
-color:white;
-@include padding-4-sides(10px, 0);
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
+.subscription {
+  background-color: $green-logo;
+  border-radius: 10px;
+  color: white;
+  @include padding-4-sides(20px, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
-
-  & p{
-    width: 250px;
+  &__text {
+    font-size: x-large;
+    width: 370px;
   }
-  & .subscription__button{ 
-    width: 180px;
-    height: 30px;
-    border-radius: 5px; 
-    align-self: flex-end;
-    margin-bottom: 10px;
-    &:hover {
-      background-color: darken; 
-    }  
-
-}
+  
+  &__input[type=email]{
+    font-size: larger;
+    @include padding-4-sides(20px, 10px);
+    border: none;
+  }
 }

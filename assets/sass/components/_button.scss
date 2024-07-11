@@ -11,4 +11,19 @@
   &__img {
     height: 100%;
   }
+
+  &--sub{ 
+    font-size: larger;
+    @include padding-4-sides(10px, 10px);
+    border: none;
+    width: 180px;
+    border-radius: 5px; 
+    align-self: flex-end;
+    
+    margin-bottom: 10px;
+    &:hover {
+      background-color: darken; 
+    }  
+
+}
 }
